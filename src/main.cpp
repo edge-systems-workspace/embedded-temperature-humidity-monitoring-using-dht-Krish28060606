@@ -10,7 +10,7 @@
  * This embedded application reads temperature and humidity data
  * from a DHT11 sensor and displays the readings on a 128x64 SSD1306
  * OLED display using I2C communication.
- *
+ * 
  * The system performs periodic sensor sampling every 2 seconds
  * (as required by DHT11 timing specifications). If a sensor read
  * fails, an error message is displayed on the OLED.
